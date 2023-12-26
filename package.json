@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
     "react-icons": "^4.12.0"
-  }
+  },
+  "name": "mern-estate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "scripts": {
+    "start": "node -r esm apis/index.js",
+    "dev": "nodemon -r esm apis/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
